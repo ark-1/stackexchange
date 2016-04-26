@@ -1,0 +1,44 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+table {
+	border-collapse: collapse;
+	display: inline-block;
+	text-align: left;
+	font-family: arial;
+	font-size: 14px;
+	border-bottom: 1px solid #bbb;
+}
+
+thead {
+	font-weight: bold;
+	border-bottom: 1px solid #bbb;
+}
+
+tr {
+	border-right: 1px solid #bbb;
+}
+
+tbody tr:hover {
+	background: #eee;
+}
+
+td {
+	padding: 5px 20px;
+	border-left: 1px solid #bbb;
+}
+
+a, a:active, a:visited {
+	text-decoration: none;
+	color: #55f;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #aaf;
+}
